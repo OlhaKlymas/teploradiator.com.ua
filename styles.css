@@ -1,3 +1,27 @@
+.first-section, .second-section, .third-section, .fourth-section, .fifth-section, .sixth-section, .seventh-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
 
+.first-section {
+  background-image: url(img/view1.jpg); }
+
+.second-section {
+  background-image: url(img/view2.jpg); }
+
+.third-section {
+  background-image: url(img/view3.jpg); }
+
+.fourth-section {
+  background-image: url(img/view4.jpg); }
+
+.fifth-section {
+  background-image: url(img/view5.jpg); }
+
+.sixth-section {
+  background-image: url(img/view6.jpg); }
+
+.seventh-section {
+  background-image: url(img/view.jpg); }
 
 /*# sourceMappingURL=styles.css.map */
