@@ -24,7 +24,7 @@
 .seventh-section {
   background-image: url(img/view7.jpg); }
 
-.section {
+section {
   min-height: 100vh;
   text-align: center;
   display: flex;
