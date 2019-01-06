@@ -1,6 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400|Roboto:500,700");
 header {
-  position: fixed; }
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  width: calc(100% - 50px);
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px; }
+  header img {
+    width: 120px; }
+
+.menu {
+  width: 40px;
+  height: 40px;
+  background-image: url(img/menu.png);
+  background-size: cover; }
 
 h1 {
   color: #F5F1ED;
@@ -10,7 +24,8 @@ h1 {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
   margin: 0; }
   h1:hover {
-    color: #F8D400; }
+    color: #F8D400;
+    transition: 0.5s; }
 
 p {
   width: 50%;
@@ -20,7 +35,8 @@ p {
   margin: 50px 0px;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); }
   p:hover {
-    color: #F8D400; }
+    color: #F8D400;
+    transition: 0.5s; }
 
 button {
   background: #F4A700;
@@ -31,7 +47,8 @@ button {
   border: 3px solid transparent; }
   button:hover {
     background: transparent;
-    border: 3px solid #F4A700; }
+    border: 3px solid #F4A700;
+    transition: 0.5s; }
 
 .overlay {
   min-height: 100%;

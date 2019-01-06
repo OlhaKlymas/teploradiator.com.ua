@@ -2,6 +2,19 @@
 
 header
 	position: fixed
+	z-index: 1
+	display: flex
+	width: calc(100% - 50px)
+	justify-content: space-between
+	align-items: center
+	padding: 24px
+	img
+		width: 120px
+.menu
+	width: 40px
+	height: 40px
+	background-image: url(img/menu.png)
+	background-size: cover
 
 h1
 	color: #F5F1ED
@@ -12,6 +25,7 @@ h1
 	margin: 0
 	&:hover
 		color: #F8D400
+		transition: 0.5s
 
 p
 	width: 50%
@@ -22,6 +36,7 @@ p
 	text-shadow: 1px 1px 5px rgba(0, 0, 0, .5)
 	&:hover
 		color: #F8D400
+		transition: 0.5s
 
 button
 	background: #F4A700
@@ -33,6 +48,7 @@ button
 	&:hover
 		background: transparent
 		border: 3px solid #F4A700
+		transition: 0.5s
 
 .overlay
 	min-height: 100%
