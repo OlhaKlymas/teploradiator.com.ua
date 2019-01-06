@@ -25,7 +25,10 @@ button {
   padding: 10px 25px;
   font-size: 18px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-  border: none; }
+  border: 3px solid transparent; }
+  button:hover {
+    background: transparent;
+    border: 3px solid #F4A700; }
 
 .overlay {
   min-height: 100vh;
@@ -61,5 +64,17 @@ button {
 
 .seventh-section {
   background-image: url(img/view7.jpg); }
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 70px; }
+
+  p {
+    font-size: 45px;
+    width: 70%;
+    margin: 100px 0px; }
+
+  button {
+    font-size: 50px; } }
 
 /*# sourceMappingURL=styles.css.map */
