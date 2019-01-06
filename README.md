@@ -1,6 +1,6 @@
 <div align="center">
    <h1>teploradiator.com.ua</h1>
-   <img src="https://github.com/OlhaKlymas/teploradiator.com.ua/blob/master/img/icon.png" width="150px"/>
+   <img src="https://github.com/OlhaKlymas/teploradiator.com.ua/blob/master/img/icon.png" width="100px"/>
 </div>
 
 <h3 align="center">👋🏼 Приветсвую!</h3>
