@@ -1,5 +1,5 @@
 <div align="center">
-   <img src="https://github.com/OlhaKlymas/teploradiator.com.ua/blob/master/img/logo.png"/><h1>teploradiator.com.ua</h1>
+   <img src="https://github.com/OlhaKlymas/teploradiator.com.ua/blob/master/img/icon.png"/><h1>teploradiator.com.ua</h1>
 </div>
 
 <h3 align="center">👋🏼 Приветсвую!</h3>
