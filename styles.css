@@ -198,7 +198,14 @@ p {
     font-size: 16px; }
 
   #fp-nav {
-    right: 3px; } }
+    right: 3px; }
+
+  .b-popup-content {
+    margin-top: 0px; }
+    .b-popup-content .popup-content-head img {
+      width: 100px; }
+    .b-popup-content .popup-content-list ul li {
+      margin-bottom: 0px; } }
 @media only screen and (max-width: 414px) {
   p {
     margin: 40px 0px; }
