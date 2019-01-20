@@ -13,10 +13,18 @@
     <div>
       <img src="img/logo.png" title="Теплосберегающее отопление">
     </div>
-    <div>
-      <div class="menu" title="Меню"></div>
-    </div>
-    <div id="fp-nav">
+      <div class="b-container">
+        <a href="javascript:PopUpShow()">
+          <div class="menu"></div>
+        </a>
+      </div>
+      <div class="b-popup" id="popup1">
+        <div class="b-popup-content">
+        Text in Popup
+        <a href="javascript:PopUpHide()">Hide popup</a>
+      </div>
+      </div>
+      <div id="fp-nav">
         <ul>
           <li data-menuanchor="section0"><a href="#section0"><span></span></a></li>
           <li data-menuanchor="section1"><a href="#section1"><span></span></a></li>
@@ -80,11 +88,7 @@
     </section>
   </div>
 <script type="text/javascript" src="js/fullpage.js"></script>
-<script type="text/javascript">
-  let myFullpage = new fullpage('#fullpage', {
-      anchors: ['section0', 'section1', 'section2', 'section3', 'section4', 'section5', 'section6'],
-      navigation: true
-    });
-</script>
+<script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
