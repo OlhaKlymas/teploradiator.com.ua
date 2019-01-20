@@ -1,7 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400|Roboto:500,700')
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:500,700')
+
+body
+	font-family: 'Open Sans', sans-serif
 
 header, h1, p, a
 	transition: .5s
+	&:hover
+		color: #F8D400
+		transition: 0.5s
+		cursor: pointer
+a
+	text-decoration: none
+	color: #fff
+	font-size: 30px
+	font-weight: 700
+	&:hover
+		color: #F8D400
+		transition: 0.5s
+		cursor: pointer
 
 header
 	position: fixed
@@ -31,19 +47,35 @@ header
 .b-popup
 	width: calc(100% + 50px)
 	min-height: 100%
-	background-color: rgba(0,0,0,0.5)
+	background-color: rgba(0,0,0,0.8)
 	overflow: hidden
 	position: fixed
 	top: 0px
 	margin-left: -50px
 	.b-popup-content
 		margin: 40px auto 0px auto
-		width: 100px
-		height: 40px
-		padding: 10px
-		background-color: #c5c5c5
-		border-radius: 5px
-		box-shadow: 0px 0px 10px #000
+		width: calc(100% - 50px)
+		height: 100%
+		padding: 10px	
+		.popup-content-close
+			position: absolute
+			right: 70px
+			.fas
+				font-size: 50px
+		.popup-content-head
+			text-align: center
+			img
+				width: 200px
+		
+		.popup-content-list ul 
+			margin: 0px
+			padding: 0px
+			li
+				list-style-type: none
+				text-transform: uppercase
+				text-align: center
+				margin-bottom: 15px
+				
 
 #fp-nav
 	right: 24px
@@ -55,26 +87,14 @@ h1
 	font-weight: 700
 	text-shadow: 1px 1px 5px rgba(0, 0, 0, .8)
 	margin: 0
-	&:hover
-		color: #F8D400
-		transition: 0.5s
-		cursor: pointer
-
 p
 	width: 50%
 	color: #fff
-	font-family: 'Open Sans', sans-serif
 	font-size: 20px
 	margin: 50px 0px
 	text-shadow: 1px 1px 5px rgba(0, 0, 0, .5)
-	&:hover
-		color: #F8D400
-		transition: 0.5s
-		cursor: pointer
-		
 
 .btn
-	font-family: 'Open Sans', sans-serif
 	background: #F4A700
 	color: #fff
 	padding: 10px 25px
