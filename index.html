@@ -18,13 +18,13 @@
     </div>
     <div id="fp-nav">
         <ul>
-          <li><a href="#section0"><span></span></a></li>
-          <li><a href="#section1"><span></span></a></li>
-          <li><a href="#section2"><span></span></a></li>
-          <li><a href="#section3"><span></span></a></li>
-          <li><a href="#section4"><span></span></a></li>
-          <li><a href="#section5"><span></span></a></li>
-          <li><a href="#section6"><span></span></a></li>
+          <li data-menuanchor="section0"><a href="#section0"><span></span></a></li>
+          <li data-menuanchor="section1"><a href="#section1"><span></span></a></li>
+          <li data-menuanchor="section2"><a href="#section2"><span></span></a></li>
+          <li data-menuanchor="section3"><a href="#section3"><span></span></a></li>
+          <li data-menuanchor="section4"><a href="#section4"><span></span></a></li>
+          <li data-menuanchor="section5"><a href="#section5"><span></span></a></li>
+          <li data-menuanchor="section6"><a href="#section6"><span></span></a></li>
         </ul>
       </div>
   </header>
@@ -81,12 +81,10 @@
   </div>
 <script type="text/javascript" src="js/fullpage.js"></script>
 <script type="text/javascript">
-  let myFullpage = new fullpage('#fullpage');
-  $(document).ready(function() {
-    $('#fullpage').fullpage({
-      anchors: ['section0', 'section1', 'section2', 'section3', 'section4', 'section5', 'section5']
+  let myFullpage = new fullpage('#fullpage', {
+      anchors: ['section0', 'section1', 'section2', 'section3', 'section4', 'section5', 'section6'],
+      navigation: true
     });
-});
 </script>
 </body>
 </html>
