@@ -7,8 +7,8 @@ $(document).ready(function(){
     PopUpHide();
 });
 function PopUpShow(){
-    $("#popup1").show();
+    $("#popup1").show(500);
 }
 function PopUpHide(){
-    $("#popup1").hide();
+    $("#popup1").hide(500);
 }

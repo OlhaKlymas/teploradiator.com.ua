@@ -23,10 +23,14 @@ header {
   position: fixed;
   z-index: 1;
   display: flex;
-  width: calc(100% - 50px);
+  width: 100%;
   justify-content: space-between;
-  align-items: center;
-  padding: 24px; }
+  align-items: center; }
+  header .head-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 50px);
+    padding: 25px; }
   header img {
     cursor: pointer;
     width: 120px; }
@@ -53,7 +57,8 @@ header {
   overflow: hidden;
   position: fixed;
   top: 0px;
-  margin-left: -50px; }
+  margin-left: -50px;
+  z-index: 999; }
   .b-popup .b-popup-content {
     margin: 40px auto 0px auto;
     width: calc(100% - 50px);
