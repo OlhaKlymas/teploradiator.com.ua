@@ -2,9 +2,9 @@
 body {
   font-family: "Open Sans", sans-serif; }
 
-header, h1, p, a {
+header, h4, p, a {
   transition: 0.5s; }
-  header:hover, h1:hover, p:hover, a:hover {
+  header:hover, h4:hover, p:hover, a:hover {
     color: #F8D400;
     transition: 0.5s;
     cursor: pointer; }
@@ -85,7 +85,7 @@ header {
 #fp-nav {
   right: 24px; }
 
-h1 {
+h4 {
   color: #F5F1ED;
   font-family: "Roboto", sans-serif;
   font-size: 50px;
@@ -150,7 +150,7 @@ p {
   background-image: url(img/view7.jpg); }
 
 @media only screen and (max-width: 1024px) {
-  h1 {
+  h4 {
     font-size: 60px; }
 
   p {
@@ -164,7 +164,7 @@ p {
   .b-popup .b-popup-content .popup-content-close {
     right: 50px; } }
 @media only screen and (max-width: 823px) {
-  h1 {
+  h4 {
     font-size: 43px; }
 
   p {
@@ -180,7 +180,7 @@ p {
     header img {
       width: 85px; } }
 @media only screen and (max-width: 667px) {
-  h1 {
+  h4 {
     padding-top: 45px;
     font-size: 31px; }
 
@@ -211,7 +211,7 @@ p {
   p {
     margin: 40px 0px; } }
 @media only screen and (max-width: 375px) {
-  h1 {
+  h4 {
     font-size: 35px; }
 
   p {
@@ -220,7 +220,7 @@ p {
   .btn {
     font-size: 23px; } }
 @media only screen and (max-width: 320px) {
-  h1 {
+  h4 {
     font-size: 23px; }
 
   p {
